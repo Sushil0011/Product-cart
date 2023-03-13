@@ -27,7 +27,7 @@ const Product = () => {
   return (
 
 
-    <div  className='grid  2xl:grid-cols-3  gap-[2rem]   xl:grid-cols-2 grid-col-1 place-content-center place-items-center'>
+    <div  className='grid  2xl:grid-cols-4   lg:grid-cols-3 md:grid-cols-2   gap-[4rem]    place-content-center place-items-center'>
       {
         product.map((elem) => {
           // console.log( "product ",elem)
